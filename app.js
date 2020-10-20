@@ -37,7 +37,7 @@ const app = express();
 ); */
 
 app.use(cors());
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3003;
 
 
 app.set('port', PORT);
